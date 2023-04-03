@@ -9,7 +9,7 @@ namespace RouteAPI.Interfaces
     {
         void Add(SearchResponse response);
         Route Get(Guid id);
-        Route Get(SearchRequest searchRequest);
+        Route[] Get(SearchRequest searchRequest);
         void Clear();
     }
 }
